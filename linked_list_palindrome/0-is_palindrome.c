@@ -1,18 +1,22 @@
 #include "palindrome.h"
 
 /**
- * is_palindrome - checks if number is a palindrome
+ * is_palindrome - checks whether or not a given unsigned integer is a
+ *	palindrome
  */
-
 int is_palindrome(unsigned long n)
 {
-    int remainder = 0, original = n, reversed = 0;
+    int num = n;
+    int digit, rev_num;
 
-    while (n != 0)
+    rev_num = 0;
+    while (n > 0)
     {
-        remainder = n % 10;
-        reversed = reversed * 10 + remainder;
+        digit = n % 10;
+        rev_num = (rev_num * 10) + digit;
         n /= 10;
     }
-    return (original == reversed);
+    if (rev_num == num)
+        return (0);
+    return (1);
 }
