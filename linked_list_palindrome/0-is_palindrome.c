@@ -18,5 +18,5 @@ int is_palindrome(unsigned long n)
     }
     if (rev_num == num)
         return (0);
-    return (0);
+    return (1);
 }
