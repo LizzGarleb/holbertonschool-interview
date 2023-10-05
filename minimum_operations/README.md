@@ -1,5 +1,5 @@
 # Minimum Operations
-![Minimum Operations]()
+![Minimum Operations](https://media.giphy.com/media/3oKIPnAiaMCws8nOsE/giphy.gif)
 
 ## Requirements
 - Allowed editors: `vi`, `vim`, `emacs`
