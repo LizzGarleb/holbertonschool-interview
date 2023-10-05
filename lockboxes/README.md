@@ -1,4 +1,5 @@
 # Lockboxes
+![Lockboxes](https://media.giphy.com/media/auCFmBjrOZ9HaJM9WH/giphy.gif)
 
 ## Requirements
 - Allowed editors: `vi`, `vim`, `emacs`
